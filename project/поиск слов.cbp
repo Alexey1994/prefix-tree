@@ -35,9 +35,13 @@
 		<Linker>
 			<Add option="-s" />
 		</Linker>
-		<Unit filename="main.c">
+		<Unit filename="../src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../src/prefix tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/prefix tree.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
