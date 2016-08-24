@@ -15,7 +15,7 @@ PrefixTree* create_prefix_tree()
 }
 
 
-void add_data_in_prefix_tree(PrefixTree *tree, char *word, char *data)
+void add_data_in_prefix_tree(PrefixTree *tree, unsigned char *word, char *data)
 {
     PrefixTree *next_node;
 
@@ -36,7 +36,7 @@ void add_data_in_prefix_tree(PrefixTree *tree, char *word, char *data)
 }
 
 
-char* find_data_in_prefix_tree(PrefixTree *tree, char *word)
+char* find_data_in_prefix_tree(PrefixTree *tree, unsigned char *word)
 {
     for(; *word; word++)
     {
